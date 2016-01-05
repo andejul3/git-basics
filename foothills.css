@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+/*reset*/
+
+aside, article, section, header, footer, nav {
+	display: block;
+	float: none;
+}
+
+html, body, div, section, article, h1, h2, h3, p {
+	margin: 0;
+	padding: 0;
+}
+
+/*layout*/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	margin: 0 auto;
+	width: 960px;
+	
+}
+
+#wrapper {
+	border: 1px solid rgb(35, 41, 56);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(35, 41, 56, 0.8);
+	background: rgb(195, 175, 144);
+}
+	
+
+header {
+	margin-bottom: 16px;
+	padding: 32px 0 8px;
+	width: 100%;
+	max-width: 960px;
+}
+
+.goal, .logo {
+	float: left;
+	margin-top: 12px;
+}
+
+.goal {
+	width: 30%;
+	text-align: center;
+	line-height: 6em;
+}
+
+.logo {
+	width: 70%;
+}
+
+.banner {
+	clear: both;
+	background-image: url(assets/pt1.png);
+	width: 100%;
+	height: 200px;
+	max-width: 960px;
+}
+
+hr {
+	background-color: #996633;
+	height: 4px;
+}
+
+#content {
+	width: 100%;
+	max-width: 960px;
+}
+
+#home {
+	float: left;
+	width: 60%;
+	padding: 0 3% 12px 2%;
+}
+
+#sidebar {
+		float: right;
+		width: 34%;
+}
+
+img {
+	width: 100%;
+}
+
+footer {
+	clear: both;
+	padding: 3%, 0;
+	text-align: center;
+	background-color: #336699;
+	color: #FFFFFF;
+	margin-bottom: 10px;
+
+/*typography*/
+
+h1 {
+	font-size: 1.25em;
+}
+
+.bullet_list li {
+	padding: 5px;
+}
+
+
+	
