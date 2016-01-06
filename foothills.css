@@ -15,7 +15,11 @@ html, body, div, section, article, h1, h2, h3, p {
 /*layout*/
 
 body {
+<<<<<<< HEAD
 	font-family: Arial, Helvetica, serif;
+=======
+	font-family: Georgia, Helvetica, sans-serif;
+>>>>>>> bugFix
 	font-size: 16px;
 	margin: 0 auto;
 	width: 960px;
